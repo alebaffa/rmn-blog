@@ -6,7 +6,7 @@ theme = "hugo-smpl-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 # Enter your tracking code to enable Google analytics
-googleAnalytics = ""
+googleAnalytics = "UA-115772631-1"
 
 [params]
   # You can use Markdown for urls [text](//domain.tld/source)
@@ -21,7 +21,7 @@ googleAnalytics = ""
 
   # Background
   [params.background]
-    image = "assets/img/bg.jpg"
+    image = ""
 
     # Enable and set background fade speed
     [params.background.fade]
