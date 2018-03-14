@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Logo -->
+      {{ if .Site.Params.logo.enable }}
+        {{ partial "logo.html" . }}
+      {{ end }}
+    {{ partial "scripts.html" . }}
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2 w">
+        <h1><a href="https://confluence.rakuten-it.com/confluence/display/RMN/">Go to the internal Confluence</a></h1>
+        <h1><a href="https://www.facebook.com/rakutenmindfulness/">Visit our Facebook page</a></h1>
+      </div>
+    </div>
+  </body>
+</html>
