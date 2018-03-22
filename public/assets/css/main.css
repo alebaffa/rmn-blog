@@ -70,7 +70,10 @@ body {
     font-size: 70px;
   }
   hi.big {
-    font-size: 70px;
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
   }
   .w {
     margin-top: 60px;
